@@ -1,0 +1,11 @@
+String blank = '';
+String nullString = null;
+String whitespace = '  ';
+System.debug('Blank: '+String.isBlank(blank));
+System.debug('Blank1: '+String.isBlank(nullString));
+System.debug('Blank2: '+String.isBlank(whitespace));
+System.debug('Empty: '+String.isEmpty(blank));
+System.debug('Empty1: '+String.isEmpty(nullString));
+System.debug('Empty2: '+String.isEmpty(whitespace));
+String alpha = 'Hello';
+System.debug('Blank3: '+String.isEmpty(alpha));

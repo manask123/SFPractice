@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="Parent to Child Component">
+      <P>Parent 1 Componet : {p1v}</P>
+      <lightning-input label="Enter vaue" onchange={handleChange}></lightning-input>
+      <c-child1-component from-parent={p1InputVal} ></c-child1-component>
+    </lightning-card>
+</template>

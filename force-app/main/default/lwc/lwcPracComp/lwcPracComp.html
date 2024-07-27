@@ -1,0 +1,19 @@
+<template>
+    <p>
+      My Name: <br/>
+      {firstName} {lastName} <br/>
+      Rec-Id: {recordId} <br/>
+      Name: {recordName} <br/>
+      Phone: {recordPhone}<br/>
+    </p>
+    <p>
+      <!-- Counter: {counter} <br/> -->
+      V1: {trTest.v1} <br/>
+      V2: {trTest.v2} <br/>
+      
+      <lightning-button label="+" onclick={handlePlus}></lightning-button>
+      <lightning-button label="-" onclick={handleMin}></lightning-button>
+    </p>
+
+
+</template>

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Child to Parent">
+      <p>
+        Parent api Value: {p1v}<br/>
+        Value from Child:<br/>
+        First Name: {fromChildFName}<br/>
+        Last Name: {fromChildLName}<br/>
+
+        <c-child2-component onsendtoparent={handleFromChild}></c-child2-component>
+      </p>
+    </lightning-card>
+</template>
